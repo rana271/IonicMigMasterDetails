@@ -1,0 +1,13 @@
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>Welcome to {{username}}</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content padding>
+  <ion-list>
+    <ion-button ion-item *ngFor="let item of items" (click)="showDetails(item)">
+      {{ item.name }}
+    </ion-button>
+  </ion-list>
+</ion-content>

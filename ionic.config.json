@@ -1,0 +1,7 @@
+{
+  "name": "FirstMig",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
